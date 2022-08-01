@@ -8,6 +8,11 @@ body {
 
 }
 
-.white-text {
+body.white-text {
     color: #ECFAFF
+}
+
+.card-text {
+    color:#ECFAFF !important;
+
 }
