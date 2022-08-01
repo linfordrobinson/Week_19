@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    background-color: #060607;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 400;
+    overflow-y: auto;
+    color:#ECFAFF
+
+}
+
+.white-text {
+    color: #ECFAFF
+}
