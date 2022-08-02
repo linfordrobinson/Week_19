@@ -12,7 +12,15 @@ body.white-text {
     color: #ECFAFF
 }
 
-.card-text {
-    color:#ECFAFF !important;
 
+
+nav li{
+    margin: 5px;
+    padding: 5px;
+    font-size: 24px;
+    list-style-type: none;
+    text-decoration: none;
+}
+.descriptor {
+    align-items: flex-start;
 }
