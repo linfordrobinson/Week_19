@@ -46,7 +46,7 @@ h5 {
     color: #ECFAFF;
     position: absolute;
     left: 75vw;
-    bottom: 5vh;
+    bottom: 25vh;
     text-align: left;
 
 }
@@ -70,3 +70,15 @@ h5 {
 .work-h1 {
     font-size: 125px;
 }
+
+.blue-border {
+    border: solid 3px #9CD5EE;
+}
+
+.mr-auto {
+    margin-left: 3%;
+    padding: 5px;
+    width: 55px;
+    height: 75px;
+}
+
