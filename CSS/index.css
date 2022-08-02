@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    background-color: #060607;
+    font-family: 'Red Hat Display', sans-serif;
+    color:#ECFAFF;
+    font-weight: 400;
+    font-family: 'Red Hat Display', sans-serif;
+    color:#ECFAFF;
+    font-weight: 400;
+}
+
+.card text {
+    color:#ECFAFF
+}
+
+.card-body {
+    color: #ECFAFF;
+}
+
+.skill-header {
+    color: #9CD5EE;
+    font-size: 100px;
+    margin-bottom: 5vh;
+}   
+
+
+h5 {
+    color: #9CD5EE;
+}
+
+#name {
+    font-size: 100px;
+    position: relative;
+    top: 55vh;
+}
+
+.under-name {
+    width: 50vw;
+    list-style-type: none;
+    position: relative;
+    left:22vw;
+    top: 55vh
+}
+
+.descriptor {
+    color: #ECFAFF;
+    position: absolute;
+    left: 75vw;
+    bottom: 5vh;
+    text-align: left;
+
+}
+
+.blue-text {
+    color: #9CD5EE;
+}
+.UXSkills {
+    height: 100vh;
+}
+
+.MyWork {
+    height: 30vh;
+}
+.work-head {
+    text-align: center;
+    position: relative;
+    top: 30vh;
+    
+}
+.work-h1 {
+    font-size: 125px;
+}
