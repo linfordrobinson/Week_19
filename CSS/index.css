@@ -11,27 +11,40 @@ body {
 
 .card text {
     color:#ECFAFF
+    font-family: 'Red Hat Display', sans-serif;
+
 }
 
 .card-body {
     color: #ECFAFF;
+    font-family: 'Red Hat Display', sans-serif;
+
 }
 
 .skill-header {
-    color: #9CD5EE;
     font-size: 100px;
     margin-bottom: 5vh;
+    font-family: 'Red Hat Display', sans-serif;
+    color:#ECFAFF;
+
+
 }   
 
 
 h5 {
     color: #9CD5EE;
+    font-family: 'Red Hat Display', sans-serif;
+
 }
 
 #name {
     font-size: 100px;
     position: relative;
     top: 55vh;
+    font-family: 'Red Hat Display', sans-serif;
+    color:#ECFAFF;
+
+
 }
 
 .under-name {
@@ -39,12 +52,16 @@ h5 {
     list-style-type: none;
     position: relative;
     left:22vw;
-    top: 55vh
+    top: 55vh;
+    font-family: 'Red Hat Display', sans-serif;
+
 }
 
 .descriptor {
     color: #ECFAFF;
     position: absolute;
+    font-family: 'Red Hat Display', sans-serif;
+    color:#ECFAFF;
     left: 75vw;
     bottom: 25vh;
     text-align: left;
@@ -56,19 +73,29 @@ h5 {
 }
 .UXSkills {
     height: 100vh;
+    font-family: 'Red Hat Display', sans-serif;
+    color:#ECFAFF;
+
+
 }
 
 .MyWork {
     height: 30vh;
+    font-family: 'Red Hat Display', sans-serif;
+
 }
 .work-head {
     text-align: center;
     position: relative;
     top: 30vh;
+    font-family: 'Red Hat Display', sans-serif;
+
     
 }
 .work-h1 {
     font-size: 125px;
+    font-family: 'Red Hat Display', sans-serif;
+
 }
 
 .blue-border {
@@ -78,7 +105,50 @@ h5 {
 .mr-auto {
     margin-left: 3%;
     padding: 5px;
-    width: 55px;
-    height: 75px;
+    width: 50px;
+    height: 70px;
+    font-family: 'Red Hat Display', sans-serif;
+
+}
+
+.navigation {
+    font-family: 'Red Hat Display', sans-serif;
+    color:#ECFAFF;
+    list-style: none;
+ 
+}
+
+.white-text {
+    font-family: 'Red Hat Display', sans-serif;
+    color:#ECFAFF;
+
+
+
+}
+
+#about h5 {
+    color:#ECFAFF;
+
+}
+
+#work h5 {
+    color: #9CD5EE;
+    font-size: 20px;
+
+}
+
+#about {
+    padding: 10px;
+}
+
+#about p {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 14px;
+
+   
+
+}#work card-title {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 32px;
 }
 
