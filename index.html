@@ -23,11 +23,11 @@
 <body class="white-text" style="background-color: #060607;">
 
     <header class="=vw-100">
-        <div class="navigation">
+        <div class="navigation" id="webnav">
         <nav class="d-flex flex-row fixed-top">
             <img src="./images/myLogo.svg" alt="Mark Logo" class="mr-auto">
 
-            <ul class="d-flex flex-row col-4 justify-content-around">
+            <ul class="navigation d-flex flex-row col-4 justify-content-around">
                 <li><a class="align-bottom white-text nav-links" href="#work">Work</a></li>
                 <li><a class="align-bottom white-text nav-links" href="#about">About</a></li>
                 <li><a class="align-bottom white-text nav-links" href="#Contacts">Contacts</a></li>
@@ -39,14 +39,88 @@
 
 
         </nav>
+
+        <div class="btn-group">
+            <button type="button" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+              Action
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Work</a>
+              <a class="dropdown-item" href="#">About</a>
+              <a class="dropdown-item" href="#">Resume</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">email</a>
+              <a class="dropdown-item" href="#">linkedin</a>
+              <a class="dropdown-item" href="#">phone</a>
+        
+            </div>
+          </div>
         </div>
+<!-- Example single danger button -->
+<div class="btn-group">
+    <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+      Action
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">Work</a>
+      <a class="dropdown-item" href="#">About</a>
+      <a class="dropdown-item" href="#">Resume</a>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#">email</a>
+      <a class="dropdown-item" href="#">linkedin</a>
+      <a class="dropdown-item" href="#">phone</a>
+
+    </div>
+  </div>
+        
     </header>
+
+<!--
+<nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#">Disabled</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+-->
 
     <main>
         <div class="card bg-transparent white-text">
             <img src="./images/Navy Suit.jpg" class="card-img mx-auto" alt="heropic" id="hero-pic">
             <div class="card-img-overlay text-center">
                 <h1 class="card-title name" id="name">Linford <span class="blue-text">Mark</span> Robinson</h1>
+<div class="underneath-name"><p>Ux<span class="blue-text">/</span>Ui <span class="blue-text">Designer</span></p></div>
+
                 <ul class="d-flex flex row justify-content-around under-name">
                     <li class="card-text">empathetic</li>
                     <li class="card-text">critical thinker</li>
@@ -55,7 +129,7 @@
 
                 </ul>
             
-                <div class="descriptor"><p><span class="blue-text"><em>definition</em></span><br>
+                <div class="descriptor"><p><span class="blue-text"><em>definition</em></s<pan><br>
                         a scientist of Human Behaviour <br>
                         in search of <span class="blue-text">Simple Solutions</span>
                     </p>
@@ -101,7 +175,9 @@
                     </div>
                 </div>
             </div>
+        </div>
             <br><br>
+        
 
 
 
@@ -160,7 +236,7 @@
                                 
                                     </div>
                                         
-                                </div>
+            </div>
                                 
 
 
