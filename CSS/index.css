@@ -88,17 +88,25 @@ h5 {
     text-align: center;
     position: relative;
     top: 30vh;
+    width: 30%;
     font-family: 'Red Hat Display', sans-serif;
+
 
     
 }
+
+.work-card {
+    width: 70%
+}
+
+
 .work-h1 {
     font-size: 125px;
     font-family: 'Red Hat Display', sans-serif;
 
 }
 
-.blue-border {
+#blue-border {
     border: solid 3px #9CD5EE;
 }
 
@@ -121,8 +129,6 @@ h5 {
 .white-text {
     font-family: 'Red Hat Display', sans-serif;
     color:#ECFAFF;
-
-
 
 }
 
@@ -156,14 +162,58 @@ h5 {
     display: none;
 }
 
+#portfolio-logo {
+    margin-left: 3%;
+    padding: 5px;
+    width: 50px;
+    height: 70px;
+    
+
+}
+
+.nav-link {
+    font-family: 'Red Hat Display', sans-serif;
+    color:#ECFAFF !important;
+
+
+}
+
+.navbar-toggler {
+background-color: transparent !important;
+}
+
+.navbar-toggler-icon {
+    color: #9CD5EE !important;
+
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image:url("../images/Frame\ 283.png") !important;
+
+}
+
+.nav-fix {
+z-index: 2;
+
+}
+
+.hero-fix {
+z-index: ;
+
+}
+
+#work-image {
+
+}
 @media only screen and (max-width: 768px) {
     .UXSkills {
-        display: none;
-        
+      display: none;  
     }
-    #webnav {
-        display: none;
-    }
+ .MyWork {
+ }
+ .work-mobile {
+    width: 100%;
+ }
 
     #name {
         font-size: 20px;
@@ -172,21 +222,29 @@ h5 {
         top:24vh;
     }
     .underneath-name {
+        display: flex;
         font-size: 16px;
         font-family: 'Red Hat Display', sans-serif;
         color:#ECFAFF;
         position: relative;
-        top: 136px;
+        top: 150px;
 
     }
 
     .descriptor {
         display: none;
     }
+.work-card {
+    width: 100%;
+}
 
-
+.work-head {
+    width:100%;
+}
 
 }
+
+
 
 
 
