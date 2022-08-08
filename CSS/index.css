@@ -123,6 +123,10 @@ h5 {
     font-family: 'Red Hat Display', sans-serif;
     color:#ECFAFF;
     list-style-type: none;
+    text-shadow: #9CD5EE 4px 4px 8px;
+    text-decoration: none;
+
+    
  
 }
 
@@ -205,6 +209,18 @@ z-index: ;
 #work-image {
 
 }
+.work-links:hover {
+text-decoration: none;
+text-shadow: #9CD5EE 4px 4px 10px;
+}
+.nav-item:hover {
+    text-shadow: #9CD5EE 4px 4px 8px;
+    text-decoration: none;
+
+
+}
+    
+
 
 
 
