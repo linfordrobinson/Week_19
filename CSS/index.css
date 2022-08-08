@@ -107,7 +107,7 @@ h5 {
 }
 
 #blue-border {
-    border: solid 3px #9CD5EE;
+    border: solid 1px #9CD5EE;
 }
 
 .mr-auto {
@@ -205,14 +205,15 @@ z-index: ;
 #work-image {
 
 }
+
+
+
 @media only screen and (max-width: 768px) {
     .UXSkills {
-      display: none;  
     }
- .MyWork {
+ #work {
  }
  .work-mobile {
-    width: 100%;
  }
 
     #name {
@@ -227,7 +228,8 @@ z-index: ;
         font-family: 'Red Hat Display', sans-serif;
         color:#ECFAFF;
         position: relative;
-        top: 150px;
+        top: 127px;
+        left: 20vh;
 
     }
 
@@ -235,14 +237,30 @@ z-index: ;
         display: none;
     }
 .work-card {
-    width: 100%;
 }
 
 .work-head {
-    width:100%;
+}
+
+#undername {
+    display: none !important;
+}
+
+#skill-cards {
+    flex-direction: column !important;
+    
+}
+#blue-border {
+    width: auto !important;
+}
+.col-3 {
+   max-width: 100% !important;
+  flex: 0 0 100% !important;
 }
 
 }
+
+
 
 
 
