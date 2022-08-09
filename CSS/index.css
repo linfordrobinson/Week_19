@@ -21,6 +21,8 @@ body {
 
 }
 
+
+
 .skill-header {
     font-size: 100px;
     margin-bottom: 5vh;
@@ -80,8 +82,9 @@ h5 {
 }
 
 .MyWork {
-    height: 30vh;
+    height: 10vh;
     font-family: 'Red Hat Display', sans-serif;
+    
 
 }
 .work-head {
@@ -91,12 +94,15 @@ h5 {
     width: 30%;
     font-family: 'Red Hat Display', sans-serif;
 
-
-    
 }
 
 .work-card {
-    width: 70%
+    max-width: 1200px !important;
+    max-height: 200px !important;
+    margin-top: 2vh;
+}
+.skill-card {
+    max-width: 350px !important;
 }
 
 
@@ -115,8 +121,6 @@ h5 {
     padding: 5px;
     width: 50px;
     height: 70px;
-    
-
 }
 
 .navigation {
@@ -135,6 +139,9 @@ h5 {
     color:#ECFAFF;
 
 }
+#work {
+    height: 100vh;
+}
 
 #about h5 {
     color:#ECFAFF;
@@ -150,6 +157,8 @@ h5 {
 #about {
     padding: 10px;
 }
+
+
 
 #about p {
     font-family: 'Red Hat Display', sans-serif;
@@ -178,8 +187,6 @@ h5 {
 .nav-link {
     font-family: 'Red Hat Display', sans-serif;
     color:#ECFAFF !important;
-
-
 }
 
 .navbar-toggler {
@@ -190,7 +197,6 @@ background-color: transparent !important;
     color: #9CD5EE !important;
 
 }
-
 .navbar-light .navbar-toggler-icon {
     background-image:url("../images/Frame\ 283.png") !important;
 
@@ -207,8 +213,13 @@ z-index: ;
 }
 
 #work-image {
+   
+
 
 }
+
+
+
 .work-links:hover {
 text-decoration: none;
 text-shadow: #9CD5EE 4px 4px 10px;
@@ -216,7 +227,6 @@ text-shadow: #9CD5EE 4px 4px 10px;
 .nav-item:hover {
     text-shadow: #9CD5EE 4px 4px 8px;
     text-decoration: none;
-
 
 }
 
@@ -226,12 +236,32 @@ text-shadow: #9CD5EE 4px 4px 10px;
     position: relative;
 }
     
+.d-flex {
+    padding:20px !important;
+}
 
+.card-body2 {
+margin-left: auto !important;
+margin-right: 0 !important;
+justify-content: end;
+
+}
+
+.col-md-8 {
+    float: right !important;
+}
+
+#containerGrid {
+
+    display: grid;
+    grid-template-columns: 95% 5% !important;
+}
 
 
 
 @media only screen and (max-width: 768px) {
     .UXSkills {
+        height: 100%;
     }
  #work {
  }
@@ -262,6 +292,7 @@ text-shadow: #9CD5EE 4px 4px 10px;
 }
 
 .work-head {
+    top:0vh;
 }
 
 #undername {
@@ -279,8 +310,33 @@ text-shadow: #9CD5EE 4px 4px 10px;
    max-width: 100% !important;
   flex: 0 0 100% !important;
 }
-
+.col-9 {
+    max-width: 100% !important;
+    flex: 0 0 100% !important;
 }
+
+#work {
+    flex-direction: column !important;
+}
+.resume-doc {
+    display: none;
+}
+.work-card {
+    height: 75vh;
+}
+
+#para2 {
+    flex-direction: row !important;
+}
+.card-body2 {
+    columns: 1;
+    width: 100% !important;
+}
+}
+
+
+
+
 
 
 
