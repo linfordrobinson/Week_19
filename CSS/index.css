@@ -319,7 +319,6 @@ justify-content: end;
     flex-direction: column !important;
 }
 .resume-doc {
-    display: none;
 }
 .work-card {
     height: 75vh;
