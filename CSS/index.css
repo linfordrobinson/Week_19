@@ -257,6 +257,28 @@ justify-content: end;
     grid-template-columns: 95% 5% !important;
 }
 
+.resume-doc {
+    width: 60vw;
+    height:180vh;
+margin: auto;
+}
+
+.resume-header {
+    font-size: 100px;
+    font-family: 'Red Hat Display', sans-serif;
+    color:#ECFAFF;
+    margin: 0;
+    padding: 40px;
+}
+
+#download-icon {
+width: 50px;    
+height:100px;
+ 
+}
+
+
+
 
 
 @media only screen and (max-width: 768px) {
@@ -319,6 +341,7 @@ justify-content: end;
     flex-direction: column !important;
 }
 .resume-doc {
+display: none;
 }
 .work-card {
     height: 75vh;
