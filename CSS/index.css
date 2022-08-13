@@ -1,92 +1,33 @@
-body {
-    margin: 0;
-    background-color: #060607;
-    font-family: 'Red Hat Display', sans-serif;
-    color:#ECFAFF;
-    font-weight: 400;
-    font-family: 'Red Hat Display', sans-serif;
-    color:#ECFAFF;
-    font-weight: 400;
-}
-
-.card text {
-    color:#ECFAFF
-    font-family: 'Red Hat Display', sans-serif;
-
-}
+/* 
 
 .card-body {
     color: #ECFAFF;
     font-family: 'Red Hat Display', sans-serif;
-
 }
-
-
 
 .skill-header {
     font-size: 100px;
     margin-bottom: 5vh;
     font-family: 'Red Hat Display', sans-serif;
     color:#ECFAFF;
-
-
 }   
-
 
 h5 {
     color: #9CD5EE;
     font-family: 'Red Hat Display', sans-serif;
-
 }
 
-#name {
-    font-size: 100px;
-    position: relative;
-    top: 55vh;
-    font-family: 'Red Hat Display', sans-serif;
-    color:#ECFAFF;
-
-
-}
-
-.under-name {
-    width: 50vw;
-    list-style-type: none;
-    position: relative;
-    left:22vw;
-    top: 55vh;
-    font-family: 'Red Hat Display', sans-serif;
-
-}
-
-.descriptor {
-    color: #ECFAFF;
-    position: absolute;
-    font-family: 'Red Hat Display', sans-serif;
-    color:#ECFAFF;
-    left: 75vw;
-    bottom: 25vh;
-    text-align: left;
-
-}
-
-.blue-text {
-    color: #9CD5EE;
-}
 .UXSkills {
     height: 100vh;
     font-family: 'Red Hat Display', sans-serif;
     color:#ECFAFF;
-
-
 }
 
 .MyWork {
     height: 10vh;
     font-family: 'Red Hat Display', sans-serif;
-    
-
 }
+
 .work-head {
     text-align: center;
     position: relative;
@@ -101,26 +42,18 @@ h5 {
     max-height: 200px !important;
     margin-top: 2vh;
 }
+
 .skill-card {
     max-width: 350px !important;
 }
 
-
 .work-h1 {
     font-size: 125px;
     font-family: 'Red Hat Display', sans-serif;
-
 }
 
 #blue-border {
     border: solid 1px #9CD5EE;
-}
-
-.mr-auto {
-    margin-left: 3%;
-    padding: 5px;
-    width: 50px;
-    height: 70px;
 }
 
 .navigation {
@@ -129,44 +62,31 @@ h5 {
     list-style-type: none;
     text-shadow: #9CD5EE 4px 4px 8px;
     text-decoration: none;
-
-    
- 
 }
 
-.white-text {
-    font-family: 'Red Hat Display', sans-serif;
-    color:#ECFAFF;
-
-}
 #work {
     height: 100vh;
 }
 
 #about h5 {
     color:#ECFAFF;
-
 }
 
 #work h5 {
     color: #9CD5EE;
     font-size: 20px;
-
 }
 
 #about {
     padding: 10px;
 }
 
-
-
 #about p {
     font-family: 'Red Hat Display', sans-serif;
     font-size: 14px;
+}
 
-   
-
-}#work card-title {
+#work card-title {
     font-family: 'Red Hat Display', sans-serif;
     font-size: 32px;
 }
@@ -180,7 +100,165 @@ h5 {
     padding: 5px;
     width: 50px;
     height: 70px;
-    
+}
+
+.work-links:hover {
+    text-decoration: none;
+    text-shadow: #9CD5EE 4px 4px 10px;
+}
+
+.nav-item:hover {
+    text-shadow: #9CD5EE 4px 4px 8px;
+    text-decoration: none;
+}
+
+.resume-doc {
+    width: 90vw;
+    height:250vh;
+    position: relative;
+}
+
+.card-body2 {
+    margin-left: auto !important;
+    margin-right: 0 !important;
+    justify-content: end;
+}
+
+#containerGrid {
+    display: grid;
+    grid-template-columns: 95% 5% !important;
+}
+
+.resume-doc {
+    width: 60vw;
+    height:180vh;
+    margin: auto;
+}
+
+.resume-header {
+    font-size: 100px;
+    font-family: 'Red Hat Display', sans-serif;
+    color:#ECFAFF;
+    margin: 0;
+    padding: 40px;
+}
+
+#download-icon {
+    width: 50px;    
+    height:100px;
+}
+
+@media only screen and (max-width: 768px) {
+    .UXSkills {
+        height: 100%;
+    }
+
+    #name {
+        font-size: 20px;
+        font-family: 'Red Hat Display', sans-serif;
+        color:#ECFAFF;
+        top:24vh;
+    }
+
+    .underneath-name {
+        display: flex;
+        font-size: 16px;
+        font-family: 'Red Hat Display', sans-serif;
+        color:#ECFAFF;
+        position: relative;
+        top: 127px;
+        left: 20vh;
+
+    }
+
+    .descriptor {
+        display: none;
+    }
+
+    #undername {
+        display: none !important;
+    }
+
+    #skill-cards {
+        flex-direction: column !important;
+    }
+
+    #blue-border {
+        width: auto !important;
+    }
+
+    #work {
+        flex-direction: column !important;
+    }
+
+    .resume-doc {
+        display: none;
+    }
+    .work-card {
+        height: 75vh;
+    }
+
+    #para2 {
+        flex-direction: row !important;
+    }
+
+    .card-body2 {
+        columns: 1;
+        width: 100% !important;
+    }
+} */
+
+/* New Styles */
+
+body {
+    margin: 0;
+    background-color: #060607;
+    font-family: 'Red Hat Display', sans-serif;
+    color:#ECFAFF;
+    font-weight: 400;
+}
+
+.hero-fix {
+    height: 100vh;
+    background-image: url('../images/Navy\ Suit.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hero-content {
+    margin-top: 50px;
+}
+
+#name {
+    font-size: 100px;
+    position: relative;
+    font-family: 'Red Hat Display', sans-serif;
+    color:#ECFAFF;
+
+
+}
+
+.under-name {
+    width: 50vw;
+    list-style-type: none;
+    font-family: 'Red Hat Display', sans-serif;
+
+}
+
+.descriptor {
+    color: #ECFAFF;
+    font-family: 'Red Hat Display', sans-serif;
+    color:#ECFAFF;
+}
+
+.blue-text {
+    color: #9CD5EE;
+}
+
+.white-text {
+    font-family: 'Red Hat Display', sans-serif;
+    color:#ECFAFF;
 
 }
 
@@ -202,167 +280,6 @@ background-color: transparent !important;
 
 }
 
-.nav-fix {
-z-index: 2;
-
+.MyWork, .UXSkills {
+    padding: 100px 20px 0;
 }
-
-.hero-fix {
-z-index: ;
-
-}
-
-#work-image {
-   
-
-
-}
-
-
-
-.work-links:hover {
-text-decoration: none;
-text-shadow: #9CD5EE 4px 4px 10px;
-}
-.nav-item:hover {
-    text-shadow: #9CD5EE 4px 4px 8px;
-    text-decoration: none;
-
-}
-
-.resume-doc {
-    width: 90vw;
-    height:250vh;
-    position: relative;
-}
-    
-.d-flex {
-    padding:20px !important;
-}
-
-.card-body2 {
-margin-left: auto !important;
-margin-right: 0 !important;
-justify-content: end;
-
-}
-
-.col-md-8 {
-    float: right !important;
-}
-
-#containerGrid {
-
-    display: grid;
-    grid-template-columns: 95% 5% !important;
-}
-
-.resume-doc {
-    width: 60vw;
-    height:180vh;
-margin: auto;
-}
-
-.resume-header {
-    font-size: 100px;
-    font-family: 'Red Hat Display', sans-serif;
-    color:#ECFAFF;
-    margin: 0;
-    padding: 40px;
-}
-
-#download-icon {
-width: 50px;    
-height:100px;
- 
-}
-
-
-
-
-
-@media only screen and (max-width: 768px) {
-    .UXSkills {
-        height: 100%;
-    }
- #work {
- }
- .work-mobile {
- }
-
-    #name {
-        font-size: 20px;
-        font-family: 'Red Hat Display', sans-serif;
-        color:#ECFAFF;
-        top:24vh;
-    }
-    .underneath-name {
-        display: flex;
-        font-size: 16px;
-        font-family: 'Red Hat Display', sans-serif;
-        color:#ECFAFF;
-        position: relative;
-        top: 127px;
-        left: 20vh;
-
-    }
-
-    .descriptor {
-        display: none;
-    }
-.work-card {
-}
-
-.work-head {
-    top:0vh;
-}
-
-#undername {
-    display: none !important;
-}
-
-#skill-cards {
-    flex-direction: column !important;
-    
-}
-#blue-border {
-    width: auto !important;
-}
-.col-3 {
-   max-width: 100% !important;
-  flex: 0 0 100% !important;
-}
-.col-9 {
-    max-width: 100% !important;
-    flex: 0 0 100% !important;
-}
-
-#work {
-    flex-direction: column !important;
-}
-.resume-doc {
-display: none;
-}
-.work-card {
-    height: 75vh;
-}
-
-#para2 {
-    flex-direction: row !important;
-}
-.card-body2 {
-    columns: 1;
-    width: 100% !important;
-}
-}
-
-
-
-
-
-
-
-
-
-
-
